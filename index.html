@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport"	content = "width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1d77e08192.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="estilos.css">
+	<meta http-equiv="X-UA-Compatible" content = "ie.edge">
+	<title> Melina Herrera </title>
+</head>
+
+<body>
+	<div class="contenedor">
+		<header>
+			<div class="logotipo">
+				<h1> Melina Herrera</h1>
+				<p> Desarrolladora web</p>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Naturaleza</a>
+				<a href="#">Ciudades</a> 	
+				<a href="#">Personas</a>
+				<a href="#">Animales</a>
+			</div>
+
+		</header>
+		<section class="grid" id="grid">
+			<div class="item"
+				 data-categoria="naturaleza"
+				 data-etiquetas="girasoles flores campo"
+				 data-descripcion="Find sometimes to do something">
+				<div class="item-contenido">
+					<img src="img/naturaleza3.png" alt="">
+				</div>
+			</div>
+			<div class="item" 
+				 data-categoria="personas"
+				 data-etiquetas="persona retrato mujer"
+				 data-descripcion="Mujer con velo">
+				<div class="item-contenido">
+					<img src="img/persona1.png" alt="50%">
+				</div>
+			</div>
+			<div class="item"
+				 data-categoria="ciudades"
+				 data-etiquetas="ciudad calles edificios"
+				 data-descripcion="Ciudad">
+				<div class="item-contenido">
+					<img src="img/ciudad1.png" alt="">
+				</div>
+			</div>
+			<div class="item"
+				 data-categoria="personas"
+				 data-etiquetas="persona retrato mujer Emilia Clarke risa"
+				 data-descripcion="Emilia Clarke">
+				<div class="item-contenido">
+					<img src="img/persona2.png" alt="">
+				</div>
+			</div>
+			<div class="item"
+				 data-categoria="animales"
+				 data-etiquetas="animal  leon leona"
+				 data-descripcion="Leones">
+				<div class="item-contenido">
+					<img src="img/animal1.png" alt="">
+				</div>
+			</div>
+			<div class="item"
+			 	 data-categoria="naturaleza"
+				 data-etiquetas="aurora boreal paisaje lago"
+				 data-descripcion="Aurora boreal">
+				<div class="item-contenido">
+					<img src="img/naturaleza1.png" alt="">
+				</div>
+			</div>
+			<div class="item"
+				 data-categoria="animales"
+				 data-etiquetas="jirafa"
+				 data-descripcion="jirafa">
+				<div class="item-contenido">
+					<img src="img/animal2.png" alt="">
+				</div>
+			</div>
+			<div class="item"
+				 data-categoria="ciudades"
+				 data-etiquetas="ciudad autos calles edificios"
+				 data-descripcion="New York">
+				<div class="item-contenido">
+					<img src="img/ciudad2.png" alt="">
+				</div>
+			</div>
+			<div class="item"
+			 	 data-categoria="naturaleza"
+				 data-etiquetas="arboles naturaleza camino bosque"
+				 data-descripcion="Bosque encantado">
+				<div class="item-contenido">
+					<img src="img/naturaleza2.png" alt="">
+				</div>
+			</div>
+		
+			</section>
+	<section class="overlay" id="overlay">
+		<div class="contenedor-img">
+			<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+			<img>
+		</div>
+		<p class="descripcion"></p>
+	</section>
+	<footer class="contenedor">
+		<div class="redes-sociales">
+			<div class="contenedor-icono">
+				<a href="https://www.linkedin.com/in/melina-herrera-a54a8ab6/" target="_blank" class="linkedin">
+					<i class="fab fa-linkedin"></i>
+				</a>
+			</div>
+			<div class="contenedor-icono">
+				<a href="https://www.instagram.com/meinamel/" target="_blank" class="instagram">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</div>
+		</div>
+		<div class="creado-por">
+			<p>Sitio diseñado por <a href="#">Melina Belen Herrera</a></p>
+		</div>
+	</footer>
+	</div>
+
+</body>
+<script src = "https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+<script src = "https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+<script src = "main.js"></script>
+
+</html>
